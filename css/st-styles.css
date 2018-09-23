@@ -1,0 +1,65 @@
+/*Asif Elahi
+ID: 15001363
+Home Work 2
+*/
+
+/*
+Color Palette 
+#2B2D42 - dark blue
+#8D99AE - ocean blue
+#EDF2F4 - blue/white
+#EF233C - red
+#1f0e48 - night blue
+#8ea1fe - Indigo 
+#e2ecfe - light blue
+#574bf8 - dark blue
+*/
+
+body { /* Font  family of the page should be  'Open Sans', sans-serif */
+    font-family: 'Open Sans', sans-serif;
+     
+}
+a { /*Color of the anchor tag should be red*/
+    color: #EF233C ;
+}
+h1 { /*All   text in  h1 tag should get font family 'Caveat', cursive and size 35px*/
+    font-family: 'Caveat', cursive ;
+    font-size: 35px;
+}
+h2{ /*All   text in h2 tag should get font family 'Caveat', cursive and size 75px*/
+    font-family: 'Caveat', cursive ;
+    font-size: 75px;
+}
+.work { /*Left Padding 30px, Background Color Blue/White*/
+    padding-left: 30px;
+    background-color: #EDF2F4;
+}
+.education { /*Left Padding 30px, Background Color Ocean Blue*/
+    padding-left: 30px;
+    background-color: #8D99AE;
+}
+header{ /* Text Color, alignment and background color*/
+    color: #1f0e48;
+    text-align: center;
+    background-color: #8ea1fe;
+}
+footer{ /* Text Color, alignment and background color*/
+    color: #1f0e48;
+    text-align: center;
+    background-color: #e2ecfe;
+}
+/*All text in  h1 and h2 tag in  header section should get color blue/white*/
+header h1, header h2 { /*Descendent Selector and Grouping Selector*/
+    color: #EDF2F4;
+}
+
+/*All   text in  h2 in footer section should get color dark blue*/
+footer h2 { /*Descendent Selector*/
+    color: #574bf8;
+}
+
+header p {  /*Descendent Selector*/
+    padding: 0px 30px; /*Padding: Top-Bottom, Left-right*/
+    font-size: 20px;
+}
+
