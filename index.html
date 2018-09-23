@@ -1,124 +1,449 @@
-<!-- /*Asif Elahi
-ID: 15001363
-Home Work 2-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>your Name | Resume</title>
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,400i,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/st-styles.css">
-       
+  <meta charset="utf-8">
+  <title>Kelvin - Bootstrap Resume Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Kelvin
+    Template URL: https://templatemag.com/kelvin-bootstrap-resume-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
 </head>
-<body>
-    <!-- // Intro -->
-    <header>
-        <div class="content-wrap">
-            <img class="profile-img column-narrow" src="pseudo-person.jpg" alt="your Name">
-            
-            <div class="column-wide">
-              <h1>Your Name</h1>
-              <h2>Web Developer + Educator</h2>
-              <p>As a developer, I specialize in creating modular and scalable front-end architectures. As an educator, I focused on creating inclusive learning environments and curriculum development. I'm also a certified <a href="#">BODYPUMP</a> Instructor for GoodLife Fitness!</p>
-            </div>
+
+<body data-spy="scroll" data-offset="64" data-target="#section-topbar">
+
+  <div id="section-topbar">
+    <div id="topbar-inner">
+      <div class="container">
+        <div class="row">
+          <div class="dropdown">
+            <ul id="nav" class="nav">
+              <li class="menu-item"><a class="smothscroll" href="#about" title="About"><i class="fa fa-user"></i></a></li>
+              <li class="menu-item"><a class="smothscroll" href="#resume" title="Resume"><i class="fa fa-file-text-o"></i></a></li>
+              <li class="menu-item"><a class="smothscroll" href="#work" title="Works"><i class="fa fa-briefcase"></i></a></li>
+              <li class="menu-item"><a class="smothscroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+            <!--/ uL#nav -->
+          </div>
+          <!-- /.dropdown -->
+
+          <div class="clear"></div>
         </div>
-    </header>
-    
-    <main> 
-        <!-- // Work Experience -->
-        <section class="work">
-            <div class="content-wrap">
-                <h2>Work Experience</h2>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
 
-                <!-- Job Details: copy this block to add more positions. -->
-                <div class="column-narrow">
-                    <h3>Front-end Developer & Educator</h3>
-                    <p>Independent / Freelance</p>
-                    <p>January 2012 - Present</p>
-                </div>
-                <div class="column-wide">
-                  <p>Provides various front-end related services ranging from development work, consultations, speaking engagements, corporate training, workshops and online courses.</p>
-                  <p>See more at <a href="http://your-website.com">your-website.com</a>.</p>
-                </div>
-                
-                <!-- Job Details -->
-                <div class="column-narrow">
-                    <h3>Director of Curriculum</h3>
-                    <p>Ladies Learning Code</p>
-                    <p>July 2014 - February 2016</p>
-                </div>
-                
-                <div class="column-wide">
-                    <p>Created and managed all adult focused curriculum, instructor training and tech related strategies and duties.</p>
+      <div class="clear"></div>
+    </div>
+    <!--/ #topbar-inner -->
+  </div>
+  <!--/ #section-topbar -->
 
-                    <p>Key contributions:</p>
-                    <ul>
-                        <li>Created 9 new workshops focusing on HTML, CSS, JavaScript, jQuery, Wordpress and Responsive Web Design.</li>
-                        <li>Created all Hackapalooza content (2 day conference style event), consisting of 2-4 hour workshop sessions focused on front-end coding languages and web development related topics.</li>
-                        <li>Lead instructor and created curriculum for the Digital Skills part-time program.</li>
-                        <li>Provided training for all lead instructors, across all Canadian chapters, focusing on creating an inclusive and engaging learning environment.</li>
-                        <li>Maintained the ladieslearningcode.com website.</li>
-                        <li>Created slide deck template for consistent national workshop branding.</li>
-                    </ul>
-                </div>
-                
-                <!-- Job Details -->
-                <div class="column-narrow">
-                    <h3>Lead Front-End Developer</h3>
-                    <p>Field ID</p>
-                    <p>March 2013 - February 2014</p>
-                </div>
-                <div class="column-wide">
-                    <p>Lead the front-end development for in-house safety inspection software.</p>
-                    <p>Key contributions:</p>
-                    <ul>
-                        <li>Responsible for recommendations, setting code standards for the front-end development.</li>
-                        <li>Created a fully customized front-end framework, including UI/UX.</li>
-                        <li>Standardized the site architecture and design. The framework contains reusable components and extensible classes for customization and flexibility.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- // Education -->
-        <section class="education">
-            <div class="content-wrap">
-                <h2>Education</h2>
-
-                <!-- School details: copy this block to add more schools. -->
-                <h3>Seneca College - Toronto, ON</h3>
-                <h4>Webmaster Content Site Design Certificate, 2006</h4>
-                <p>14 week full-time program.</p>
-                
-                <h3>York University - Toronto, ON</h3>
-                <h4>Bachelor of Arts, 2001-2005</h4>
-                <p>Double Major in Communications & Psychology.</p>
-                
-                <h3>San Jose State University - San Jose, CA</h3>
-                <h4>General Studies, 2000</h4>
-                <p>First year general studies.</p>
-            </div>
-        </section>
-    </main>
-    
-    <!-- // Footer & contact info -->
-    <footer>
-        <div class="content-wrap">
-            <h2>Let's Keep in Touch!</h2>
-            
-            <!-- Social media and contact links. Add or remove any networks. -->
-            <div class="contact-info">
-                <a href="mailto:email@example.com">email@example.com</a>
-                <a href="http://yourwebsite.com">yourwebsite.com</a>
-                <a href="#">Twitter</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Facebook</a>
-            </div>
-
-            <p>Copyright 2017 by Your Name</p>
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h1>Asif Elahi</h1>
+          <h3>Web Designer | elahi.asif@outlook.com</h3>
         </div>
-    </footer>
+        <!--/.col-lg-12 -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!--/.container -->
+  </div>
+  <!--/.#headerwrap -->
+
+
+  <section id="about" name="about">
+    <div id="intro">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-2 col-lg-offset-1">
+            <h5>ABOUT</h5>
+          </div>
+          <div class="col-lg-6">
+            <p align="justify">I'm computer science student with 4+ years of professional experience in front-end development,  and project management. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like
+            branding, marketing, photography and communication. </p>
+          </div>
+          <div class="col-lg-3">
+            <p><a href="#"><i class="icon-file"></i></a>
+              <sm>DOWNLOAD PDF</sm>
+            </p>
+          </div>
+
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
+    </div>
+    <!--/ #intro -->
+  </section>
+
+
+  <section id="resume" name="resume">
+    <!--EDUCATION DESCRIPTION -->
+    <div class="container desc">
+      <div class="row">
+
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>EDUCATION</h5>
+        </div>
+        <div class="col-lg-6">
+          <p>
+            <t>Bachelor in Computer Science</t><br/> York College || City University of New York<br/>
+            <i>Transfer Student</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>GRADUATING IN SEPTEMBER 2019</sm><br/>
+            <imp>
+              <sm>IN PROGRESS</sm>
+            </imp>
+          </p>
+        </div>
+<!--
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            <t>Degree of Web Developer</t><br/> Hastings University <br/>
+            <i>2 Years Course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>JUNE 2012</sm>
+          </p>
+        </div>
+-->
+      </div>
+      <!--/.row -->
+      <br>
+      <hr>
+    </div>
+    <!--/.container -->
+  </section>
+
+
+  <!--WORK DESCRIPTION -->
+  <div class="container desc">
+    <div class="row">
+
+      <div class="col-lg-2 col-lg-offset-1">
+        <h5>WORK</h5>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          <t>Technical Analyst</t><br/> Glitra Inc. <br/>
+        </p>
+        <p>
+          <more>•	Assembled and procured software and hardware for customer as per the product specification requested. <br> 
+                •	Facilitated web-design planning for clients and supervised related projects. <br>
+                •	Conducted recruitment process for hiring a Database Engineer for a client firm. <br>
+                •	Assisted management with project managements tasks (Initiation, planning, execution) the company being a start-up. <br>
+</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>April 2018 - CURRENT</sm>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>Web Designer</t><br/> Bridal Dreams <br/>
+        </p>
+        <p>
+          <more>•	Designed, coded and modified a CSS, HTML, JAVA-Scipt based website for the company. <br>
+•	Used MAGENTO toolkit to push products for ecommerce clients. <br>
+•	Conducted Market Analysis on the existing clients base using Excel and Facebook Business Analytics. <br>
+</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>May 2014 - May 2015</sm>
+        </p>
+      </div>
+    </div>
+    <!--/.row -->
+    <br>
+    <hr>
+  </div>
+  <!--/.container -->
+
+
+  <!--AWARDS DESCRIPTION -->
+  <div class="container desc">
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-1">
+        <h5>ACADEMIC PROJECTS</h5>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          <t>Website Design Project, City College of New York</t><br/> WebGL, Three.Js <br/>
+            <p>
+          <more>•   Modeled an online aisle of a Pharmacy for shoppers to walk and shop without leaving their   residence. <br>
+                •	Built every item individually accessible and removable from shelf using JAVA-Script. <br>
+                •	Developed a local website linking WebGL and Three.js. <br>
+</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>March, 2015</sm>
+        </p>
+      </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>Multidisciplinary Model Bridge Project, City College of New York</t><br/>
+            Visual Studio, Matlab, SAP 2000 <br>
+        </p>
+        <p>
+          <more>•	Designed a warren truss bridge. <br>
+                •	Automated stress testing and load testing using SAP2000. <br>
+                •	Worked with Civil and Mechanical Engineering students to build a replica of the bridge. <br>
+</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>December 2012</sm>
+        </p>
+      </div>
+
+    </div>
+    <!--/.row -->
+    <br>
+  </div>
+  <!--/.container -->
+
+
+  <!--SKILLS DESCRIPTION -->
+  <div id="skillswrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>SKILLS</h5>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="javascript" height="130" width="130"></canvas>
+          <p>Javascript</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="bootstrap" height="130" width="130"></canvas>
+          <p>Bootstrap</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="wordpress" height="130" width="130"></canvas>
+          <p>Wordpress</p>
+          <br>
+        </div>
+
+        <div class="col-lg-3 col-lg-offset-3 centered">
+          <canvas id="html" height="130" width="130"></canvas>
+          <p>HTML/CSS</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="photoshop" height="130" width="130"></canvas>
+          <p>Photoshop</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="illustrator" height="130" width="130"></canvas>
+          <p>Illustrator</p>
+          <br>
+        </div>
+
+      </div>
+      <!--/.row -->
+      <br>
+    </div>
+    <!--/.container -->
+  </div>
+  <!--/ #skillswrap -->
+
+
+
+  <section id="work" name="work">
+    <!--PORTFOLIO DESCRIPTION -->
+    <div class="container desc">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>PORTFOLIO</h5>
+        </div>
+        <div class="col-lg-6">
+          <p><img class="img-responsive" src="img/port01.jpg" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+          <p>CANALS OF ENGLAND</p>
+          <p>
+            <more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+              <sm><i class="icon-tag"></i> design</sm>
+            </more>
+          </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><img class="img-responsive" src="img/port02.jpg" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+          <p>SANKEY</p>
+          <p>
+            <more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+              <sm><i class="icon-tag"></i> front-end</sm>
+            </more>
+          </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><img class="img-responsive" src="img/port03.jpg" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+          <p>WE GROW</p>
+          <p>
+            <more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+              <sm><i class="icon-tag"></i> web design</sm>
+            </more>
+          </p>
+        </div>
+
+      </div>
+      <!--/.row -->
+      <br>
+      <br>
+    </div>
+    <!--/.container -->
+  </section>
+
+  <section id="contact" name="contact">
+    <!--FOOTER DESCRIPTION -->
+    <div id="footwrap">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-2">
+            <h5>CONTACT</h5>
+          </div>
+          <div class="col-lg-4">
+            <p>
+              <t>Email</t><br/> elahi.asif@outlook.com <br/> asifelahi@yahoo.com
+            </p>
+            <p>
+              <t>Adress</t><br/>East Elmhurst, Queens <br/> New York - 11370 <br> United States of America
+            </p>
+            <p>
+              <t>Phone</t><br/> +1 (646) 283-3431 <br/>
+            </p>
+            <p>
+              <t>Social Links</t><br/>
+              <a href="#"><i class="fa fa-dribbble"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-apple"></i></a>
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p>
+              <sm>CONTACT FORM</sm>
+            </p>
+            <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Your Email</label>
+                <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Your Message</label>
+                <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+
+              <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <div class="form-send">
+                <button type="submit" class="btn btn-large">Send Message</button>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
+    </div>
+    <!--/ #footer -->
+  </section>
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Kelvin</strong>. All Rights Reserved
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/kelvin-bootstrap-resume-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created with Kelvin template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/chart/chart.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
